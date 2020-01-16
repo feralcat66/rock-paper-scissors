@@ -1,0 +1,19 @@
+#rock{
+    height: 100px;
+}
+#paper{
+    height: 100px;
+}
+#scissors{
+    width: 200px; 
+}
+#result-image{
+    height: 100px;
+    
+}
+.hidden {
+    display: none;
+}
+
+
+

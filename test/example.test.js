@@ -14,3 +14,17 @@ test('time to test a function', function(assert) {
     // Make assertions about what is expected valid result
     assert.equal(true, false);
 });
+
+import { checkResult } from '../roshambo.js';
+
+test('Paper beats rock', assert => {
+
+    const player = 'paper';
+    const computer = 'rock';
+    const expected = 'win';
+
+    const result = checkResult(player, computer);
+    assert.equal(result, expected);
+});
+
+test ('')
