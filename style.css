@@ -1,3 +1,6 @@
+#background{
+    background-color: black;
+}
 #rock{
     height: 100px;
 }
@@ -15,5 +18,23 @@
     display: none;
 }
 
+h1, h2 {
+    background-color: blueviolet;
+    color: white;
+    border: solid 5px lightslategray;
+    border-radius: 20px;
+    padding: 20px;
 
+}
+#allResults{
+    background-color: aqua;
+    color: black;
+    border: solid 5px lightslategray;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#images{
+    padding: 20px;
+}
 
