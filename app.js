@@ -53,6 +53,17 @@ resetButton.addEventListener ('click', () => {
 });
 
 
+const myH1 = document.getElementsByTagName('body')
+const instruments = ['guitar', 'violin', 'mayonnaise', 'horseradish'];
+for(let i = 0; i < instruments.length; i++) {
+     const music = instruments[i]
+     console.log (music)
+    myH1.appendChild = music
+
+  
+ }
+
+
 
 
 
