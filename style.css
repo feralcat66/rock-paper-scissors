@@ -1,0 +1,40 @@
+#background{
+    background-color: black;
+}
+#rock{
+    height: 100px;
+}
+#paper{
+    height: 100px;
+}
+#scissors{
+    width: 200px; 
+}
+#result-image{
+    height: 100px;
+    
+}
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    background-color: blueviolet;
+    color: white;
+    border: solid 5px lightslategray;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#allResults{
+    background-color: aqua;
+    color: black;
+    border: solid 5px lightslategray;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#images{
+    padding: 20px;
+}
+
